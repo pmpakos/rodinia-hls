@@ -2,28 +2,29 @@
 
 Rodinia-hls is an FPGA version of the widely used GPU benchmark suite Rodinia, written in HLS (High-Level Synthesis) C/C++. This project was initiated by Dr. Zhenman Fang when he was a postdoc at UCLA, mentoring a few summer intern students. Now it is updated and maintained by the SFU-HiAccel group at SFU, led by Dr. Fang.
 
-If you use Rodinia-hls in your research, please cite our FCCM 2018 paper:
+<!-- If you use Rodinia-hls in your research, please cite our FCCM 2018 paper:
 
 > Jason Cong, Zhenman Fang, Michael Lo, Hanrui Wang, Jingxian Xu, Shaochong Zhang. "Understanding Performance Differences of FPGAs and GPUs". The 26th IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM 2018 short paper), Boulder CO, May 2018, pp. 172-175.
-
+ -->
 ## Download
 
 ```shell
-git clone https://github.com/SFU-HiAccel/rodinia-hls.git
+git clone https://github.com/pmpakos/rodinia-hls
 ```
 
 ## Setup Requirements
 
 1. **Evaluated hardware platforms:**
   + **Host OS**
-    + 64-bit Ubuntu 16.04.6 LTS
     + 64-bit Ubuntu 18.04.2 LTS
   + **Datacenter FPGA**
-    + Xilinx Alveo U200 - DDR4-based FPGA
+    <!-- + Xilinx Alveo U200 - DDR4-based FPGA -->
+    + Xilinx Alveo U250 - DDR4-based FPGA
+    + Xilinx Alveo U280 - {DDR4-,HBM-} based FPGA
 2. **Software tools:**
    + **HLS tool**
-     + Vitis 2019.2
-     + Xilinx Runtime(XRT) 2019.2
+     + Vitis 2020.2
+     + Xilinx Runtime(XRT) 2020.2
 
 ## Usage
 Each kernel has folders for baseline version and multiple optimizations and a ``data`` folder.
@@ -38,7 +39,11 @@ In each baseline or optimization folder, you can run software emulation, hardwar
 make all TARGET=<sw_emu/hw_emu/hw> DEVICE=<FPGA platform>
 ```
 
-For FPGA platform names, they can be found in your install directory like /opt/xilinx/platforms/. For example, for U200 FPGA platform, use xilinx_u200_xdma_201830_2.
+For FPGA platform names, they can be found in your install directory like /opt/xilinx/platforms/. For example
+
+<!-- U200 : ```xilinx_u200_xdma_201830_2``` -->
+U250 : ```xilinx_u250_gen3x16_xdma_3_1_202020_1```
+U280 : ```xilinx_u280_xdma_201920_3```
 
 + Run application in emulation or hardware
 ```shell
@@ -107,7 +112,7 @@ SRAD (Speckle Reducing Anisotropic Diffusion) is a diffusion method for ultrason
 
 For a stream of input points, it finds a predetermined number of medians so that each point is assigned to its nearest center. The quality of the clustering is measured by the sum of squared distances (SSQ) metric.
 
-## Team Members and Contact:
+<!-- ## Team Members and Contact:
 
 Current Stuedents: [Xingyu Tian](http://www.sfu.ca/~xingyut/), [Alec Lu](http://www.sfu.ca/~fla30/)
 
@@ -118,3 +123,4 @@ Past Contributors (at UCLA): Michael Lo (now PhD at UCLA), Hanrui Wang (now PhD 
 Special thanks to Falcon Computing to contribute the special memcpy APIs for memory coalescing optimizations.
 
 If you have any questions, please feel free to contact Dr. Fang (zhenman@sfu.ca) or Xingyu (xingyut@sfu.ca)
+ -->

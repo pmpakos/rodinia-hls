@@ -54,7 +54,7 @@ BUILD_DIR_KERNEL = $(BUILD_DIR)/$(APP)
 # Change for Vitis
 # CXX := $(XILINX_SDX)/bin/xcpp
 # XOCC := $(XILINX_SDX)/bin/xocc
-CXX := $(XILINX_VITIS)/bin/xcpp
+CXX := g++
 VPP := $(XILINX_VITIS)/bin/v++
 
 #Include Libraries
