@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define TILE_ROWS 256
-#define ROWS 256
-#define COLS 256
+#define TILE_ROWS 32 // 256
+#define ROWS 2048 // 256
+#define COLS 2048 // 256
 #define R1 0
 #define R2 127
 #define C1 0
 #define C2 127
 #define LAMBDA 0.5 
 #define PARA_FACTOR 16
-#define NITER 2
+#define NITER 2 // 20
 #define TYPE float
 #define TOP_TILE 0
 #define BOTTOM_TILE (ROWS/TILE_ROWS - 1)

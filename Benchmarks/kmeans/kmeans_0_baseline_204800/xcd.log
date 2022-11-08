@@ -1,0 +1,75 @@
+Tue Nov  8 17:23:18 2022: Server was asked to start on port: '40971'
+Tue Nov  8 17:23:18 2022: Server is using token UUID: 'aaa1604b-1c15-42e8-9414-e09c5078cdb9'
+Tue Nov  8 17:23:18 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Nov  8 17:23:18 2022: Attempting to start server on port '40971'
+Tue Nov  8 17:23:18 2022: XCD main fifo: created main fifo '/tmp/xcdmainaaa1604b-1c15-42e8-9414-e09c5078cdb9', fd read = 13
+Tue Nov  8 17:23:18 2022: Running Dispatch Server
+Tue Nov  8 17:23:18 2022: Version 2.1.0
+Tue Nov  8 17:23:27 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:23:27 2022: EXCHANGE_TOKEN received, server token: aaa1604b-1c15-42e8-9414-e09c5078cdb9, passed token: aaa1604b-1c15-42e8-9414-e09c5078cdb9
+Tue Nov  8 17:23:27 2022: SESSION_MGR: creating session with session uuid: 'f3be07d8-76e1-4075-a81c-9292201835f6' and name 'v++_link_kmeans.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 17:23:27 2022: GUIDANCE_SMGR: creating guidance session with uuid: 'f3be07d8-76e1-4075-a81c-9292201835f6' and name 'v++_link_kmeans.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 17:24:21 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:30:30 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:52 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:52 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:52 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:38:52 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:41:50 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:41:53 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:41:54 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:41:55 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:41:58 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:42:03 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:42:19 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:42:39 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:43:38 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:44:10 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:44:17 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:44:17 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:44:27 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:44:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:45:00 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:45:10 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:45:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:45:49 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:45:53 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:46:29 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:11 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:17 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:18 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:51 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:55 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:47:56 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:48:05 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:48:23 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:48:39 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:49:16 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:49:22 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:49:52 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:03 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:04 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:09 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:12 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:19 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:31 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:35 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:50:48 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:51:53 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:11 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:16 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:22 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:35 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:56 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:52:57 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:53:08 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:54:13 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:54:13 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:55:01 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 17:57:15 2022: Dispatch Server: Accepted socket connection from client

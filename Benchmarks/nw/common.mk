@@ -25,11 +25,11 @@ help::
 	$(ECHO) ""
 
 # Compiler tools
-XILINX_SDX ?= /local-scratch/SDx/SDx/2019.1
-XILINX_XRT ?= /opt/xilinx/xrt
-XILINX_SDK ?= $(XILINX_SDX)/../../SDK/2019.1
-XILINX_VIVADO ?= /local-scratch/SDx/Vivado/2019.1
-XILINX_VIVADO_HLS ?= $(XILINX_SDX)/Vivado_HLS
+# XILINX_SDX ?= /local-scratch/SDx/SDx/2019.1
+# XILINX_XRT ?= /opt/xilinx/xrt
+# XILINX_SDK ?= $(XILINX_SDX)/../../SDK/2019.1
+# XILINX_VIVADO ?= /local-scratch/SDx/Vivado/2019.1
+# XILINX_VIVADO_HLS ?= $(XILINX_SDX)/Vivado_HLS
 
 # Kernal Name
 APP=nw
@@ -51,6 +51,7 @@ BUILD_DIR := ./_x.$(TARGET).$(DSA)
 
 BUILD_DIR_KERNEL = $(BUILD_DIR)/$(APP)
 
+# Change for Vitis
 # CXX := $(XILINX_SDX)/bin/xcpp
 # XOCC := $(XILINX_SDX)/bin/xocc
 CXX := g++
@@ -102,7 +103,6 @@ $(XCLBIN)/$(APP).$(TARGET).$(DSA).xo: src/$(APP).cpp
 $(XCLBIN)/$(APP).$(TARGET).$(DSA).xclbin: $(BINARY_CONTAINER_vadd_OBJS)
 	mkdir -p $(XCLBIN)
 	$(VPP) $(CLFLAGS) --temp_dir $(BUILD_DIR_KERNEL) -R2 -l $(LDCLFLAGS) --connectivity.nk $(KERNAL_NAME):1 -j 8 -o'$@' $(+) $(XOCC_LINK_OPTS)
-# 	$(XOCC) $(CLFLAGS) --temp_dir $(BUILD_DIR_KERNEL) -l $(LDCLFLAGS) --nk $(KERNAL_NAME):1 -o'$@' $(+)
 
 # Building Host
 $(EXECUTABLE): check-xrt $(HOST_SRCS) $(HOST_HDRS)

@@ -1,0 +1,15 @@
+----------------------------------
+pathfinder ROWS = 100, COLS = 100000
+buffer allocation: 0.001289482
+memory copy: 0.002960176
+set arguments: 0.000033400
+kernel execution: 0.011529763
+data retrieving: 0.000472850
+----------------------------------
+pathfinder ROWS = 1000, COLS = 100000
+buffer allocation: 0.010599918
+memory copy: 0.026690406
+set arguments: 0.000018816
+kernel execution: 0.115658229
+data retrieving: 0.000361825
+----------------------------------

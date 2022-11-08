@@ -1,0 +1,143 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/reports/link
+	Log files: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/xclbin/hotspot.hw.xilinx_u280_xdma_201920_3.xclbin.link_summary, at Tue Nov  8 17:07:40 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Nov  8 17:07:40 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/reports/link/v++_link_hotspot.hw.xilinx_u280_xdma_201920_3_guidance.html', at Tue Nov  8 17:07:42 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_xdma_201920_3/hw/xilinx_u280_xdma_201920_3.xsa'
+INFO: [v++ 74-74] Compiler Version string: 2020.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [17:07:52] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/xclbin/hotspot.hw.xilinx_u280_xdma_201920_3.xo -keep --config /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm --target hw --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Tue Nov  8 17:07:55 2022
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/xclbin/hotspot.hw.xilinx_u280_xdma_201920_3.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [17:07:57] build_xd_ip_db started: /opt/xilinx/Vitis/2020.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/xilinx_u280_xdma_201920_3.hpfm -clkid 0 -ip /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/iprepo/xilinx_com_hls_workload_1_0,workload -o /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [17:08:07] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 146421 ; free virtual = 191570
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [17:08:07] cfgen started: /opt/xilinx/Vitis/2020.2/bin/cfgen  -nk workload:1 -dmclkid 0 -r /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: workload, num: 1  {workload_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.result to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.temp to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.power to HBM[0]
+INFO: [SYSTEM_LINK 82-37] [17:08:17] cfgen finished successfully
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 146417 ; free virtual = 191566
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [17:08:17] cf2bd started: /opt/xilinx/Vitis/2020.2/bin/cf2bd  --linux --trace_buffer 1024 --input_file /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.xsd --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int --target_bd pfm_dynamic.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd pfm_dynamic.bd -dn dr -dp /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [17:08:21] cf2bd finished successfully
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 146475 ; free virtual = 191639
+INFO: [v++ 60-1441] [17:08:21] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 146512 ; free virtual = 191676
+INFO: [v++ 60-1443] [17:08:21] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/sdsl.dat -rtd /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/cf2sw.rtd -nofilter /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/cf2sw_full.rtd -xclbin /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/xclbin_orig.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/run_link
+INFO: [v++ 60-1441] [17:08:26] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 146519 ; free virtual = 191683
+INFO: [v++ 60-1443] [17:08:26] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/run_link
+INFO: [v++ 60-1441] [17:08:28] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:02 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 144290 ; free virtual = 189454
+INFO: [v++ 60-1443] [17:08:28] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u280_xdma_201920_3 --remote_ip_cache /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/.ipcache -s --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int --log_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/logs/link --report_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/reports/link --config /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/vplConfig.ini -k /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link --no-info --iprepo /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/xo/ip_repo/xilinx_com_hls_workload_1_0 --messageDb /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/run_link/vpl.pb /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/run_link
+
+****** vpl v2020.2 (64-bit)
+  **** SW Build (by xbuild) on 2020-11-18-05:13:29
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/int/kernel_info.dat'.
+INFO: [VPL 74-74] Compiler Version string: 2020.2
+INFO: [VPL 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [VPL 60-1032] Extracting hardware platform to /home/vitis-workspace/rodinia-hls/Benchmarks/hotspot/hotspot_0_baseline_1024/_x.hw.xilinx_u280_xdma_201920_3/hotspot/link/vivado/vpl/.local/hw_platform
+WARNING: /opt/xilinx/Vitis/2020.2/tps/lnx64/jre9.0.4 does not exist.
+[17:13:28] Run vpl: Step create_project: Started
+Creating Vivado project.
+[17:13:32] Run vpl: Step create_project: Completed
+[17:13:32] Run vpl: Step create_bd: Started
+[17:14:54] Run vpl: Step create_bd: RUNNING...
+[17:16:35] Run vpl: Step create_bd: RUNNING...
+[17:17:39] Run vpl: Step create_bd: Completed
+[17:17:39] Run vpl: Step update_bd: Started
+[17:17:44] Run vpl: Step update_bd: Completed
+[17:17:44] Run vpl: Step generate_target: Started
+[17:19:12] Run vpl: Step generate_target: RUNNING...
+[17:19:29] Run vpl: Step generate_target: Completed
+[17:19:29] Run vpl: Step config_hw_runs: Started
+[17:19:43] Run vpl: Step config_hw_runs: Completed
+[17:19:43] Run vpl: Step synth: Started
+[17:21:14] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:22:04] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:22:35] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:23:09] Block-level synthesis in progress, 1 of 60 jobs complete, 7 jobs running.
+[17:23:40] Block-level synthesis in progress, 9 of 60 jobs complete, 5 jobs running.
+[17:24:15] Block-level synthesis in progress, 13 of 60 jobs complete, 8 jobs running.
+[17:24:57] Block-level synthesis in progress, 13 of 60 jobs complete, 8 jobs running.
+[17:26:42] Block-level synthesis in progress, 20 of 60 jobs complete, 5 jobs running.
+[17:30:46] Block-level synthesis in progress, 27 of 60 jobs complete, 6 jobs running.
+[17:31:38] Block-level synthesis in progress, 31 of 60 jobs complete, 7 jobs running.
+[17:32:16] Block-level synthesis in progress, 31 of 60 jobs complete, 8 jobs running.
+[17:34:04] Block-level synthesis in progress, 38 of 60 jobs complete, 7 jobs running.
+[17:35:06] Block-level synthesis in progress, 40 of 60 jobs complete, 6 jobs running.
+[17:35:37] Block-level synthesis in progress, 40 of 60 jobs complete, 8 jobs running.
+[17:36:12] Block-level synthesis in progress, 45 of 60 jobs complete, 4 jobs running.
+[17:36:43] Block-level synthesis in progress, 47 of 60 jobs complete, 6 jobs running.
+[17:37:26] Block-level synthesis in progress, 48 of 60 jobs complete, 7 jobs running.
+[17:37:58] Block-level synthesis in progress, 48 of 60 jobs complete, 7 jobs running.
+[17:38:37] Block-level synthesis in progress, 54 of 60 jobs complete, 3 jobs running.
+[17:39:09] Block-level synthesis in progress, 57 of 60 jobs complete, 3 jobs running.
+[17:40:20] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:40:55] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:41:27] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:42:00] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:42:39] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:43:15] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:43:48] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:44:22] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:44:55] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:45:32] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:46:04] Block-level synthesis in progress, 59 of 60 jobs complete, 1 job running.
+[17:46:38] Block-level synthesis in progress, 60 of 60 jobs complete, 0 jobs running.
+[17:47:09] Top-level synthesis in progress.
+[17:47:44] Top-level synthesis in progress.
+[17:48:16] Top-level synthesis in progress.
+[17:49:00] Run vpl: Step synth: Completed
+[17:49:00] Run vpl: Step impl: Started
+[18:02:39] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 54m 08s 
+
+[18:02:39] Starting logic optimization..
+[18:03:12] Phase 1 Retarget
+[18:03:43] Phase 2 Constant propagation
+[18:03:43] Phase 3 Sweep
+[18:04:16] Phase 4 BUFG optimization
+[18:04:48] Phase 5 Shift Register Optimization
+[18:04:48] Phase 6 Post Processing Netlist
+[18:11:20] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 08m 41s 
+
+[18:11:20] Starting logic placement..
+[18:11:53] Phase 1 Placer Initialization
+[18:11:53] Phase 1.1 Placer Initialization Netlist Sorting
+[18:17:07] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[18:17:07] Phase 1.3 Build Placer Netlist Model
+[18:19:19] Phase 1.4 Constrain Clocks/Macros
+[18:19:19] Phase 2 Global Placement
+[18:19:19] Phase 2.1 Floorplanning
+[18:19:51] Phase 2.1.1 Partition Driven Placement
+[18:19:51] Phase 2.1.1.1 PBP: Partition Driven Placement
+[18:20:24] Phase 2.1.1.2 PBP: Clock Region Placement
+[18:21:29] Phase 2.1.1.3 PBP: Compute Congestion
+[18:21:29] Phase 2.1.1.4 PBP: UpdateTiming
+[18:21:29] Phase 2.1.1.5 PBP: Add part constraints
+[18:22:01] Phase 2.2 Update Timing before SLR Path Opt
+[18:22:01] Phase 2.3 Global Placement Core

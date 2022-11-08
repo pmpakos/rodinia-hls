@@ -1,0 +1,293 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link
+	Log files: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin.link_summary, at Mon Nov  7 17:22:12 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Mon Nov  7 17:22:12 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link/v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3_guidance.html', at Mon Nov  7 17:22:14 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_xdma_201920_3/hw/xilinx_u280_xdma_201920_3.xsa'
+INFO: [v++ 74-74] Compiler Version string: 2020.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [17:22:26] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xo -keep --config /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm --target hw --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Mon Nov  7 17:22:30 2022
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [17:22:38] build_xd_ip_db started: /opt/xilinx/Vitis/2020.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/xilinx_u280_xdma_201920_3.hpfm -clkid 0 -ip /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/iprepo/xilinx_com_hls_workload_1_0,workload -o /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [17:22:51] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 111311 ; free virtual = 189200
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [17:22:51] cfgen started: /opt/xilinx/Vitis/2020.2/bin/cfgen  -nk workload:1 -dmclkid 0 -r /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: workload, num: 1  {workload_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.delta to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.ly to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.w to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.oldw to HBM[0]
+INFO: [SYSTEM_LINK 82-37] [17:23:02] cfgen finished successfully
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 113101 ; free virtual = 191000
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [17:23:02] cf2bd started: /opt/xilinx/Vitis/2020.2/bin/cf2bd  --linux --trace_buffer 1024 --input_file /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.xsd --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int --target_bd pfm_dynamic.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd pfm_dynamic.bd -dn dr -dp /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [17:23:06] cf2bd finished successfully
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 112975 ; free virtual = 190879
+INFO: [v++ 60-1441] [17:23:06] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:40 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 113015 ; free virtual = 190919
+INFO: [v++ 60-1443] [17:23:06] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/sdsl.dat -rtd /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/cf2sw.rtd -nofilter /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/cf2sw_full.rtd -xclbin /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/xclbin_orig.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [v++ 60-1441] [17:23:11] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 112952 ; free virtual = 190855
+INFO: [v++ 60-1443] [17:23:11] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [v++ 60-1441] [17:23:13] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:02 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 112283 ; free virtual = 190187
+INFO: [v++ 60-1443] [17:23:13] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u280_xdma_201920_3 --remote_ip_cache /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/.ipcache -s --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int --log_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/logs/link --report_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link --config /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/vplConfig.ini -k /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link --no-info --iprepo /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/xo/ip_repo/xilinx_com_hls_workload_1_0 --messageDb /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link/vpl.pb /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+
+****** vpl v2020.2 (64-bit)
+  **** SW Build (by xbuild) on 2020-11-18-05:13:29
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/kernel_info.dat'.
+INFO: [VPL 74-74] Compiler Version string: 2020.2
+INFO: [VPL 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [VPL 60-1032] Extracting hardware platform to /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/vivado/vpl/.local/hw_platform
+WARNING: /opt/xilinx/Vitis/2020.2/tps/lnx64/jre9.0.4 does not exist.
+[17:31:04] Run vpl: Step create_project: Started
+Creating Vivado project.
+[17:31:14] Run vpl: Step create_project: Completed
+[17:31:14] Run vpl: Step create_bd: Started
+[17:33:14] Run vpl: Step create_bd: RUNNING...
+[17:42:41] Run vpl: Step create_bd: RUNNING...
+[17:44:19] Run vpl: Step create_bd: RUNNING...
+[17:50:54] Run vpl: Step create_bd: RUNNING...
+[17:55:04] Run vpl: Step create_bd: Completed
+[17:55:04] Run vpl: Step update_bd: Started
+[17:55:09] Run vpl: Step update_bd: Completed
+[17:55:09] Run vpl: Step generate_target: Started
+[17:56:55] Run vpl: Step generate_target: RUNNING...
+[17:58:55] Run vpl: Step generate_target: RUNNING...
+[18:00:09] Run vpl: Step generate_target: Completed
+[18:00:09] Run vpl: Step config_hw_runs: Started
+[18:02:46] Run vpl: Step config_hw_runs: Completed
+[18:02:46] Run vpl: Step synth: Started
+[18:04:13] Block-level synthesis in progress, 0 of 69 jobs complete, 8 jobs running.
+[18:05:12] Block-level synthesis in progress, 0 of 69 jobs complete, 8 jobs running.
+[18:09:12] Block-level synthesis in progress, 2 of 69 jobs complete, 6 jobs running.
+[18:09:58] Block-level synthesis in progress, 8 of 69 jobs complete, 8 jobs running.
+[18:10:37] Block-level synthesis in progress, 10 of 69 jobs complete, 6 jobs running.
+[18:11:12] Block-level synthesis in progress, 11 of 69 jobs complete, 7 jobs running.
+[18:16:16] Block-level synthesis in progress, 17 of 69 jobs complete, 2 jobs running.
+[18:20:14] Block-level synthesis in progress, 24 of 69 jobs complete, 4 jobs running.
+[18:23:00] Block-level synthesis in progress, 28 of 69 jobs complete, 6 jobs running.
+[18:26:36] Block-level synthesis in progress, 34 of 69 jobs complete, 6 jobs running.
+[18:30:11] Block-level synthesis in progress, 40 of 69 jobs complete, 7 jobs running.
+[18:33:55] Block-level synthesis in progress, 48 of 69 jobs complete, 7 jobs running.
+[18:37:04] Block-level synthesis in progress, 53 of 69 jobs complete, 6 jobs running.
+[18:39:13] Block-level synthesis in progress, 61 of 69 jobs complete, 4 jobs running.
+[18:40:46] Block-level synthesis in progress, 63 of 69 jobs complete, 6 jobs running.
+[18:41:21] Block-level synthesis in progress, 67 of 69 jobs complete, 2 jobs running.
+[18:41:52] Block-level synthesis in progress, 67 of 69 jobs complete, 2 jobs running.
+[18:42:26] Block-level synthesis in progress, 67 of 69 jobs complete, 2 jobs running.
+[18:42:58] Block-level synthesis in progress, 69 of 69 jobs complete, 0 jobs running.
+[18:43:31] Top-level synthesis in progress.
+[18:44:03] Top-level synthesis in progress.
+[18:44:37] Top-level synthesis in progress.
+[18:45:11] Run vpl: Step synth: Completed
+[18:45:11] Run vpl: Step impl: Started
+[18:58:29] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 01h 35m 13s 
+
+[18:58:29] Starting logic optimization..
+[18:59:34] Phase 1 Retarget
+[18:59:34] Phase 2 Constant propagation
+[19:00:08] Phase 3 Sweep
+[19:00:41] Phase 4 BUFG optimization
+[19:02:09] Phase 5 Shift Register Optimization
+[19:02:09] Phase 6 Post Processing Netlist
+[19:08:17] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 09m 48s 
+
+[19:08:17] Starting logic placement..
+[19:09:43] Phase 1 Placer Initialization
+[19:09:43] Phase 1.1 Placer Initialization Netlist Sorting
+[19:13:32] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[19:14:05] Phase 1.3 Build Placer Netlist Model
+[19:16:16] Phase 1.4 Constrain Clocks/Macros
+[19:16:16] Phase 2 Global Placement
+[19:16:16] Phase 2.1 Floorplanning
+[19:16:48] Phase 2.1.1 Partition Driven Placement
+[19:16:48] Phase 2.1.1.1 PBP: Partition Driven Placement
+[19:17:21] Phase 2.1.1.2 PBP: Clock Region Placement
+[19:17:54] Phase 2.1.1.3 PBP: Compute Congestion
+[19:17:54] Phase 2.1.1.4 PBP: UpdateTiming
+[19:18:27] Phase 2.1.1.5 PBP: Add part constraints
+[19:18:27] Phase 2.2 Update Timing before SLR Path Opt
+[19:18:27] Phase 2.3 Global Placement Core
+[19:30:25] Phase 2.3.1 Physical Synthesis In Placer
+[19:32:36] Phase 3 Detail Placement
+[19:32:36] Phase 3.1 Commit Multi Column Macros
+[19:32:36] Phase 3.2 Commit Most Macros & LUTRAMs
+[19:33:41] Phase 3.3 Small Shape DP
+[19:33:41] Phase 3.3.1 Small Shape Clustering
+[19:33:41] Phase 3.3.2 Flow Legalize Slice Clusters
+[19:33:41] Phase 3.3.3 Slice Area Swap
+[19:34:47] Phase 3.4 Place Remaining
+[19:34:47] Phase 3.5 Re-assign LUT pins
+[19:34:47] Phase 3.6 Pipeline Register Optimization
+[19:34:47] Phase 3.7 Fast Optimization
+[19:35:52] Phase 4 Post Placement Optimization and Clean-Up
+[19:35:52] Phase 4.1 Post Commit Optimization
+[19:36:58] Phase 4.1.1 Post Placement Optimization
+[19:36:58] Phase 4.1.1.1 BUFG Insertion
+[19:36:58] Phase 1 Physical Synthesis Initialization
+[19:37:30] Phase 4.1.1.2 BUFG Replication
+[19:38:03] Phase 4.1.1.3 Replication
+[19:38:35] Phase 4.2 Post Placement Cleanup
+[19:39:08] Phase 4.3 Placer Reporting
+[19:39:08] Phase 4.3.1 Print Estimated Congestion
+[19:39:08] Phase 4.4 Final Placement Cleanup
+[19:49:09] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 00h 40m 51s 
+
+[19:49:09] Starting logic routing..
+[19:49:09] Phase 1 Build RT Design
+[19:50:21] Phase 2 Router Initialization
+[19:50:21] Phase 2.1 Fix Topology Constraints
+[19:50:21] Phase 2.2 Pre Route Cleanup
+[19:50:54] Phase 2.3 Global Clock Net Routing
+[19:50:54] Phase 2.4 Update Timing
+[19:52:32] Phase 2.5 Update Timing for Bus Skew
+[19:52:32] Phase 2.5.1 Update Timing
+[19:53:37] Phase 3 Initial Routing
+[19:53:37] Phase 3.1 Global Routing
+[19:54:16] Phase 4 Rip-up And Reroute
+[19:54:16] Phase 4.1 Global Iteration 0
+[20:01:20] Phase 4.2 Global Iteration 1
+[20:01:54] Phase 4.3 Global Iteration 2
+[20:03:31] Phase 5 Delay and Skew Optimization
+[20:03:31] Phase 5.1 Delay CleanUp
+[20:03:31] Phase 5.1.1 Update Timing
+[20:04:36] Phase 5.2 Clock Skew Optimization
+[20:04:36] Phase 6 Post Hold Fix
+[20:04:36] Phase 6.1 Hold Fix Iter
+[20:04:36] Phase 6.1.1 Update Timing
+[20:05:09] Phase 6.1.2 Lut RouteThru Assignment for hold
+[20:05:41] Phase 6.2 Additional Hold Fix
+[20:06:46] Phase 7 Leaf Clock Prog Delay Opt
+[20:07:19] Phase 8 Route finalize
+[20:07:19] Phase 9 Verifying routed nets
+[20:07:19] Phase 10 Depositing Routes
+[20:07:51] Phase 11 Post Router Timing
+[20:07:51] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 00h 18m 42s 
+
+[20:07:51] Starting bitstream generation..
+[20:27:28] Creating bitmap...
+[20:37:24] Run vpl: Step impl: Completed
+[20:37:26] Writing bitstream ./pfm_top_i_dynamic_region_my_rm_partial.bit...
+[20:37:26] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 29m 34s 
+[20:37:28] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [20:37:36] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:02:11 ; elapsed = 03:14:23 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 127273 ; free virtual = 138466
+INFO: [v++ 60-1443] [20:37:36] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [v++ 60-991] clock name 'clkwiz_kernel_clk_out1' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'clkwiz_kernel2_clk_out1' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'clk_out1_pfm_top_clkwiz_hbm_aclk_0' (clock ID '') is being mapped to clock name 'clk_out1_pfm_top_clkwiz_hbm_aclk_0' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): System (SYSTEM) clock: clk_out1_pfm_top_clkwiz_hbm_aclk_0 = 450, Kernel (DATA) clock: clkwiz_kernel_clk_out1 = 300, Kernel (KERNEL) clock: clkwiz_kernel2_clk_out1 = 500
+INFO: [v++ 60-1453] Command Line: cf2sw -a /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/address_map.xml -sdsl /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/sdsl.dat -xclbin /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/xclbin_orig.xml -rtd /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.rtd -o /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-2311] HPISystemDiagram::writeSystemDiagramAfterRunningVivado, rtdInputFilePath: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.rtd
+INFO: [v++ 60-2312] HPISystemDiagram::writeSystemDiagramAfterRunningVivado, systemDiagramOutputFilePath: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/systemDiagramModelSlrBaseAddress.json
+INFO: [v++ 60-1618] Launching 
+INFO: [v++ 60-1441] [20:37:42] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 128772 ; free virtual = 140092
+INFO: [v++ 60-1443] [20:37:42] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.rtd --append-section :JSON:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3_xml.rtd --add-section BUILD_METADATA:JSON:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xml --add-section SYSTEM_METADATA:RAW:/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/systemDiagramModelSlrBaseAddress.json --output /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+XRT Build Version: 2.8.743 (2020.2)
+       Build Date: 2020-11-16 00:19:11
+          Hash ID: 77d5484b5c4daa691a7f78235053fb036829b1e9
+Creating a default 'in-memory' xclbin image.
+
+Section: 'DEBUG_IP_LAYOUT'(9) was successfully added.
+Size   : 296 bytes
+Format : JSON
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/debug_ip_layout.rtd'
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 44285723 bytes
+Format : RAW
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 410 bytes
+Format : JSON
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 3230 bytes
+Format : JSON
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 4063 bytes
+Format : RAW
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 14973 bytes
+Format : RAW
+File   : '/home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (44334577 bytes) to the output file: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [20:37:44] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:02 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 128702 ; free virtual = 140066
+INFO: [v++ 60-1443] [20:37:44] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin.info --input /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [v++ 60-1441] [20:37:45] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.55 ; elapsed = 00:00:00.73 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 128697 ; free virtual = 140062
+INFO: [v++ 60-1443] [20:37:45] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/link/run_link
+INFO: [v++ 60-1441] [20:37:45] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1575.707 ; gain = 0.000 ; free physical = 128696 ; free virtual = 140061
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link/system_estimate_backprop_kernel.hw.xilinx_u280_xdma_201920_3.xtxt
+INFO: [v++ 60-586] Created /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.ltx
+INFO: [v++ 60-586] Created xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link/v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3_guidance.html
+	Timing Report: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/reports/link/imp/impl_1_xilinx_u280_xdma_201920_3_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/logs/link/vivado.log
+	Steps Log File: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/_x.hw.xilinx_u280_xdma_201920_3/backprop_kernel/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_0_baseline_65536/back/xclbin/backprop_kernel.hw.xilinx_u280_xdma_201920_3.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 3h 15m 46s
+INFO: [v++ 60-1653] Closing dispatch client.

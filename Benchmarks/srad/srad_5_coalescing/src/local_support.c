@@ -10,6 +10,8 @@ void run_benchmark( void *vargs, cl_context& context, cl_command_queue& commands
   // 0th: initialize the timer at the beginning of the program
   timespec timer = tic();
 
+  printf("srad(v2) ROWS x COLS = %d x %d, NITER = %d\n", ROWS, COLS, NITER);
+
   // Create device buffers
   cl_mem J_buffer = clCreateBuffer(context, CL_MEM_READ_WRITE, sizeof(args->J) , NULL, NULL);
   cl_mem Jout_buffer   = clCreateBuffer(context, CL_MEM_READ_WRITE, sizeof(args->Jout) , NULL, NULL);

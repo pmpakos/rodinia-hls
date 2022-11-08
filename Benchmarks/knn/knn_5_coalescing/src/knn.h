@@ -12,8 +12,8 @@
 #include <string.h>
 #include <assert.h>
 
-const int NUM_FEATURE = 2;
-const int NUM_PT_IN_SEARCHSPACE = 1024*1024;
+const int NUM_FEATURE = 2; // lat and long (input query)
+const int NUM_PT_IN_SEARCHSPACE = 1024*1024; // num of hurricanes
 const int NUM_PT_IN_BUFFER = 512;
 const int NUM_TILES = NUM_PT_IN_SEARCHSPACE / NUM_PT_IN_BUFFER;
 const int UNROLL_FACTOR = 2;

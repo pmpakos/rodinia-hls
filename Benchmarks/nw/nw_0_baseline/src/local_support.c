@@ -7,7 +7,7 @@ int INPUT_SIZE = sizeof(struct bench_args_t);
 
 void run_benchmark( void *vargs, cl_context& context, cl_command_queue& commands, cl_program& program, cl_kernel& kernel ) {
   struct bench_args_t *args = (struct bench_args_t *)vargs;
-  int num_jobs = 1 << 10;
+  int num_jobs = 1 << 10; //1024
 
 // Create host buffer
   char* seqA_batch = (char *)malloc(sizeof(args->seqA) * num_jobs);

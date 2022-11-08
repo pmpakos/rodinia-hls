@@ -1,0 +1,140 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/reports/link
+	Log files: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/xclbin/kmeans.hw.xilinx_u280_xdma_201920_3.xclbin.link_summary, at Tue Nov  8 17:23:27 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Tue Nov  8 17:23:27 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/reports/link/v++_link_kmeans.hw.xilinx_u280_xdma_201920_3_guidance.html', at Tue Nov  8 17:23:29 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u280_xdma_201920_3/hw/xilinx_u280_xdma_201920_3.xsa'
+INFO: [v++ 74-74] Compiler Version string: 2020.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [17:23:41] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/xclbin/kmeans.hw.xilinx_u280_xdma_201920_3.xo -keep --config /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u280_xdma_201920_3/xilinx_u280_xdma_201920_3.xpfm --target hw --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/run_link
+INFO: [SYSTEM_LINK 60-1316] Initiating connection to rulecheck server, at Tue Nov  8 17:23:44 2022
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/xclbin/kmeans.hw.xilinx_u280_xdma_201920_3.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [17:23:44] build_xd_ip_db started: /opt/xilinx/Vitis/2020.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/xilinx_u280_xdma_201920_3.hpfm -clkid 0 -ip /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/iprepo/xilinx_com_hls_workload_1_0,workload -o /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [17:23:54] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 123017 ; free virtual = 173910
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [17:23:54] cfgen started: /opt/xilinx/Vitis/2020.2/bin/cfgen  -nk workload:1 -dmclkid 0 -r /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: workload, num: 1  {workload_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.feature to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.clusters to HBM[0]
+INFO: [CFGEN 83-2226] Inferring mapping for argument workload_1.membership to HBM[0]
+INFO: [SYSTEM_LINK 82-37] [17:24:05] cfgen finished successfully
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 116994 ; free virtual = 167887
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [17:24:05] cf2bd started: /opt/xilinx/Vitis/2020.2/bin/cf2bd  --linux --trace_buffer 1024 --input_file /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.xsd --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int --target_bd pfm_dynamic.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd pfm_dynamic.bd -dn dr -dp /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [17:24:11] cf2bd finished successfully
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1692.871 ; gain = 0.000 ; free physical = 113523 ; free virtual = 164573
+INFO: [v++ 60-1441] [17:24:11] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 113489 ; free virtual = 164547
+INFO: [v++ 60-1443] [17:24:11] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/sdsl.dat -rtd /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/cf2sw.rtd -nofilter /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/cf2sw_full.rtd -xclbin /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/xclbin_orig.xml -o /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/run_link
+INFO: [v++ 60-1441] [17:24:17] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 105959 ; free virtual = 156869
+INFO: [v++ 60-1443] [17:24:17] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/run_link
+INFO: [v++ 60-1441] [17:24:19] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1583.711 ; gain = 0.000 ; free physical = 109226 ; free virtual = 160138
+INFO: [v++ 60-1443] [17:24:19] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u280_xdma_201920_3 --remote_ip_cache /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/.ipcache -s --output_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int --log_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/logs/link --report_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/reports/link --config /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/vplConfig.ini -k /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link --no-info --iprepo /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/xo/ip_repo/xilinx_com_hls_workload_1_0 --messageDb /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/run_link/vpl.pb /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/run_link
+
+****** vpl v2020.2 (64-bit)
+  **** SW Build (by xbuild) on 2020-11-18-05:13:29
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/int/kernel_info.dat'.
+INFO: [VPL 74-74] Compiler Version string: 2020.2
+INFO: [VPL 60-423]   Target device: xilinx_u280_xdma_201920_3
+INFO: [VPL 60-1032] Extracting hardware platform to /home/vitis-workspace/rodinia-hls/Benchmarks/kmeans/kmeans_0_baseline_494020/_x.hw.xilinx_u280_xdma_201920_3/kmeans/link/vivado/vpl/.local/hw_platform
+WARNING: /opt/xilinx/Vitis/2020.2/tps/lnx64/jre9.0.4 does not exist.
+[17:30:23] Run vpl: Step create_project: Started
+Creating Vivado project.
+[17:30:29] Run vpl: Step create_project: Completed
+[17:30:29] Run vpl: Step create_bd: Started
+[17:31:53] Run vpl: Step create_bd: RUNNING...
+[17:33:47] Run vpl: Step create_bd: RUNNING...
+[17:35:49] Run vpl: Step create_bd: RUNNING...
+[17:36:06] Run vpl: Step create_bd: Completed
+[17:36:06] Run vpl: Step update_bd: Started
+[17:36:09] Run vpl: Step update_bd: Completed
+[17:36:09] Run vpl: Step generate_target: Started
+[17:37:33] Run vpl: Step generate_target: RUNNING...
+[17:37:57] Run vpl: Step generate_target: Completed
+[17:37:57] Run vpl: Step config_hw_runs: Started
+[17:38:19] Run vpl: Step config_hw_runs: Completed
+[17:38:19] Run vpl: Step synth: Started
+[17:38:57] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:39:50] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:40:32] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:41:05] Block-level synthesis in progress, 0 of 60 jobs complete, 8 jobs running.
+[17:41:36] Block-level synthesis in progress, 6 of 60 jobs complete, 2 jobs running.
+[17:42:09] Block-level synthesis in progress, 7 of 60 jobs complete, 7 jobs running.
+[17:42:41] Block-level synthesis in progress, 8 of 60 jobs complete, 8 jobs running.
+[17:43:17] Block-level synthesis in progress, 9 of 60 jobs complete, 7 jobs running.
+[17:43:49] Block-level synthesis in progress, 9 of 60 jobs complete, 8 jobs running.
+[17:44:22] Block-level synthesis in progress, 14 of 60 jobs complete, 7 jobs running.
+[17:44:55] Block-level synthesis in progress, 18 of 60 jobs complete, 7 jobs running.
+[17:45:31] Block-level synthesis in progress, 18 of 60 jobs complete, 8 jobs running.
+[17:46:03] Block-level synthesis in progress, 19 of 60 jobs complete, 7 jobs running.
+[17:46:36] Block-level synthesis in progress, 21 of 60 jobs complete, 6 jobs running.
+[17:47:08] Block-level synthesis in progress, 26 of 60 jobs complete, 5 jobs running.
+[17:47:42] Block-level synthesis in progress, 27 of 60 jobs complete, 7 jobs running.
+[17:48:14] Block-level synthesis in progress, 28 of 60 jobs complete, 7 jobs running.
+[17:48:47] Block-level synthesis in progress, 30 of 60 jobs complete, 6 jobs running.
+[17:49:19] Block-level synthesis in progress, 35 of 60 jobs complete, 5 jobs running.
+[17:49:52] Block-level synthesis in progress, 40 of 60 jobs complete, 6 jobs running.
+[17:50:25] Block-level synthesis in progress, 41 of 60 jobs complete, 7 jobs running.
+[17:50:58] Block-level synthesis in progress, 42 of 60 jobs complete, 7 jobs running.
+[17:51:31] Block-level synthesis in progress, 45 of 60 jobs complete, 5 jobs running.
+[17:52:03] Block-level synthesis in progress, 47 of 60 jobs complete, 7 jobs running.
+[17:52:36] Block-level synthesis in progress, 48 of 60 jobs complete, 7 jobs running.
+[17:53:09] Block-level synthesis in progress, 51 of 60 jobs complete, 5 jobs running.
+[17:53:41] Block-level synthesis in progress, 56 of 60 jobs complete, 2 jobs running.
+[17:54:14] Block-level synthesis in progress, 60 of 60 jobs complete, 0 jobs running.
+[17:54:55] Top-level synthesis in progress.
+[17:55:27] Top-level synthesis in progress.
+[17:55:59] Top-level synthesis in progress.
+[17:56:27] Run vpl: Step synth: Completed
+[17:56:27] Run vpl: Step impl: Started
+[18:08:54] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 44m 31s 
+
+[18:08:54] Starting logic optimization..
+[18:09:26] Phase 1 Retarget
+[18:09:58] Phase 2 Constant propagation
+[18:09:58] Phase 3 Sweep
+[18:10:30] Phase 4 BUFG optimization
+[18:11:07] Phase 5 Shift Register Optimization
+[18:11:07] Phase 6 Post Processing Netlist
+[18:16:44] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 07m 50s 
+
+[18:16:44] Starting logic placement..
+[18:17:26] Phase 1 Placer Initialization
+[18:17:26] Phase 1.1 Placer Initialization Netlist Sorting
+[18:21:45] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[18:22:49] Phase 1.3 Build Placer Netlist Model
+[18:24:27] Phase 1.4 Constrain Clocks/Macros
+[18:24:27] Phase 2 Global Placement
+[18:24:27] Phase 2.1 Floorplanning
+[18:25:00] Phase 2.1.1 Partition Driven Placement
+[18:25:00] Phase 2.1.1.1 PBP: Partition Driven Placement
+[18:25:32] Phase 2.1.1.2 PBP: Clock Region Placement
+[18:26:04] Phase 2.1.1.3 PBP: Compute Congestion
+[18:26:04] Phase 2.1.1.4 PBP: UpdateTiming
+[18:26:37] Phase 2.1.1.5 PBP: Add part constraints
+[18:26:37] Phase 2.2 Update Timing before SLR Path Opt
+[18:26:37] Phase 2.3 Global Placement Core

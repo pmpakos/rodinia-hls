@@ -1,0 +1,22 @@
+----------------------------------
+kmeans NPOINTS = 204800
+buffer allocation: 0.003151162
+memory copy: 0.007647558
+set arguments: 0.000022684
+kernel execution: 0.011048848
+data retrieving: 0.000997345
+----------------------------------
+kmeans NPOINTS = 494020
+buffer allocation: 0.007113334
+memory copy: 0.017424879
+set arguments: 0.000049645
+kernel execution: 0.026333868
+data retrieving: 0.002015996
+----------------------------------
+kmeans NPOINTS = 819200
+buffer allocation: 0.011668281
+memory copy: 0.028535368
+set arguments: 0.000052966
+kernel execution: 0.042832563
+data retrieving: 0.003630606
+----------------------------------

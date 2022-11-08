@@ -1,0 +1,12 @@
+Tue Nov  8 17:23:28 2022: Server was asked to start on port: '45518'
+Tue Nov  8 17:23:28 2022: Server is using token UUID: '47f2647c-3bf3-404d-8de4-4df304c52d88'
+Tue Nov  8 17:23:28 2022: Attempting to start server on port '45518'
+Tue Nov  8 17:23:28 2022: XRC main fifo: created main fifo '/tmp/xrcmain47f2647c-3bf3-404d-8de4-4df304c52d88', fd read = 13
+Tue Nov  8 17:23:28 2022: Running Rule Check Server
+Tue Nov  8 17:23:28 2022: Version 1.6.1
+Tue Nov  8 17:23:29 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:23:29 2022: EXCHANGE_TOKEN received, server token: 47f2647c-3bf3-404d-8de4-4df304c52d88, passed token: 47f2647c-3bf3-404d-8de4-4df304c52d88
+Tue Nov  8 17:23:29 2022: SESSION_MGR: creating session with session uuid: '23b8eb81-60c0-4742-b883-87663c63d2a3' and name 'v++_link_kmeans.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 17:23:44 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:30:23 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:56:46 2022: Rule Check Server: Accepted socket connection from client

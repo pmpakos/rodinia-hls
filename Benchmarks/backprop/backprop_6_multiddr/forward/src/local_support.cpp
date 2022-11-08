@@ -24,7 +24,7 @@ void bpnn_layerforward_FPGA(float *input, float *hidden, float *conn, cl_context
   timespec timer = tic();
 
   // Create device buffers
-  cl_mem_ext_ptr_t d_input_ext; d_input_ext.flgas = XCL_MEM_DDR_BANK0; d_input_ext.param = 0; d_input_ext.obj = 0;
+  cl_mem_ext_ptr_t d_input_ext; d_input_ext.flags = XCL_MEM_DDR_BANK0; d_input_ext.param = 0; d_input_ext.obj = 0;
   d_input = clCreateBuffer(context, CL_MEM_READ_WRITE | CL_MEM_EXT_PTR_XILINX, 65537 * sizeof(float), &d_input_ext, &err);
   if(err != CL_SUCCESS) { printf("ERROR: clCreateBuffer d_input (size:65537) => %d\n", err);}
 
@@ -33,7 +33,7 @@ void bpnn_layerforward_FPGA(float *input, float *hidden, float *conn, cl_context
   if(err != CL_SUCCESS) { printf("ERROR: clCreateBuffer d_hidden (size:17) => %d\n", err);}
 
   cl_mem_ext_ptr_t d_conn_ext; d_conn_ext.flags = XCL_MEM_DDR_BANK2; d_conn_ext.param = 0; d_conn_ext.obj = 0;
-  d_conn = clCreateBuffer(context, CL_MEM_READ_WRITE | CL_MEM_EXT_PTR_XILINX, 65537 * 17  * sizeof(float), $d_conn_ext, &err);
+  d_conn = clCreateBuffer(context, CL_MEM_READ_WRITE | CL_MEM_EXT_PTR_XILINX, 65537 * 17  * sizeof(float), &d_conn_ext, &err);
   if(err != CL_SUCCESS) { printf("ERROR: clCreateBuffer d_conn (size:65537*17) => %d\n", err);}
 
   // 1st: time of buffer allocation

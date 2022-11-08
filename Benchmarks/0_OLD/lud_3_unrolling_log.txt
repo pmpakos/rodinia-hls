@@ -1,0 +1,22 @@
+----------------------------------
+LUD GRID_ROWS x GRID_COLS = 64 x 64
+buffer allocation: 0.000196273
+memory copy: 0.000590871
+set arguments: 0.000033201
+kernel execution: 0.001167078
+data retrieving: 0.000363358
+----------------------------------
+LUD GRID_ROWS x GRID_COLS = 256 x 256
+buffer allocation: 0.000146920
+memory copy: 0.000284112
+set arguments: 0.000006319
+kernel execution: 0.006574302
+data retrieving: 0.000302942
+----------------------------------
+LUD GRID_ROWS x GRID_COLS = 512 x 512
+buffer allocation: 0.000215276
+memory copy: 0.000628681
+set arguments: 0.000006696
+kernel execution: 0.037781984
+data retrieving: 0.000669481
+----------------------------------

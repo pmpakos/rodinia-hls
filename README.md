@@ -9,7 +9,7 @@ Rodinia-hls is an FPGA version of the widely used GPU benchmark suite Rodinia, w
 ## Download
 
 ```shell
-git clone https://github.com/pmpakos/rodinia-hls
+git clone git@github.com:pmpakos/rodinia-hls.git
 ```
 
 ## Setup Requirements
@@ -39,11 +39,8 @@ In each baseline or optimization folder, you can run software emulation, hardwar
 make all TARGET=<sw_emu/hw_emu/hw> DEVICE=<FPGA platform>
 ```
 
-For FPGA platform names, they can be found in your install directory like /opt/xilinx/platforms/. For example
-
-<!-- U200 : ```xilinx_u200_xdma_201830_2``` -->
-U250 : ```xilinx_u250_gen3x16_xdma_3_1_202020_1```
-U280 : ```xilinx_u280_xdma_201920_3```
+For FPGA platform names, they can be found in your install directory like /opt/xilinx/platforms/. For example <!-- U200 : ```xilinx_u200_xdma_201830_2```, --> 
+U250 : ```xilinx_u250_gen3x16_xdma_3_1_202020_1```, U280 : ```xilinx_u280_xdma_201920_3```
 
 + Run application in emulation or hardware
 ```shell

@@ -1,0 +1,57 @@
+----------------------------------
+Backprop (forward) INPUT_SIZE=65536
+buffer allocation: 0.000733744
+memory copy: 0.001683589
+set arguments: 0.000052615
+kernel execution: 0.090989574
+data retrieving: 0.000648397
+----------------------------------
+Backprop (forward) INPUT_SIZE=131072
+buffer allocation: 0.001217346
+memory copy: 0.003140002
+set arguments: 0.000020563
+kernel execution: 0.180197254
+data retrieving: 0.000525779
+----------------------------------
+Backprop (forward) INPUT_SIZE=196608
+buffer allocation: 0.001641633
+memory copy: 0.003981266
+set arguments: 0.000022900
+kernel execution: 0.269880958
+data retrieving: 0.000613797
+----------------------------------
+Backprop (forward) INPUT_SIZE=262144
+buffer allocation: 0.002149038
+memory copy: 0.005231454
+set arguments: 0.000022610
+kernel execution: 0.359299163
+data retrieving: 0.000696660
+----------------------------------
+Backprop (forward) INPUT_SIZE=327680
+buffer allocation: 0.002611649
+memory copy: 0.006340084
+set arguments: 0.000023112
+kernel execution: 0.449037173
+data retrieving: 0.000618618
+----------------------------------
+Backprop (forward) INPUT_SIZE=393216
+buffer allocation: 0.003035601
+memory copy: 0.007455840
+set arguments: 0.000048327
+kernel execution: 0.557265610
+data retrieving: 0.000613936
+----------------------------------
+Backprop (forward) INPUT_SIZE=524288
+buffer allocation: 0.004048661
+memory copy: 0.009972187
+set arguments: 0.000055729
+kernel execution: 0.845249491
+data retrieving: 0.000626315
+----------------------------------
+Backprop (forward) INPUT_SIZE=1048576
+buffer allocation: 0.007630288
+memory copy: 0.018347025
+set arguments: 0.000049883
+kernel execution: 2.441731325
+data retrieving: 0.000603034
+----------------------------------

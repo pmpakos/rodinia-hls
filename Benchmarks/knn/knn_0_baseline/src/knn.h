@@ -23,9 +23,9 @@ const int UNROLL_FACTOR = 2;
 #define __gmp_const const
 #include "ap_int.h"
 #include <inttypes.h>
-    const int DWIDTH = 512;
-    #define INTERFACE_WIDTH ap_uint<DWIDTH>
-    const int WIDTH_FACTOR = DWIDTH/32;
+const int DWIDTH = 512;
+#define INTERFACE_WIDTH ap_uint<DWIDTH>
+const int WIDTH_FACTOR = DWIDTH/32;
 #endif 
 
 // Definition for testbench

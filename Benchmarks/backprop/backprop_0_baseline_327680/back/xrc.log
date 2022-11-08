@@ -1,0 +1,13 @@
+Mon Nov  7 17:23:09 2022: Server was asked to start on port: '35879'
+Mon Nov  7 17:23:09 2022: Server is using token UUID: 'caa62740-c586-4b43-a35c-078074f942ba'
+Mon Nov  7 17:23:09 2022: Attempting to start server on port '35879'
+Mon Nov  7 17:23:09 2022: XRC main fifo: created main fifo '/tmp/xrcmaincaa62740-c586-4b43-a35c-078074f942ba', fd read = 13
+Mon Nov  7 17:23:09 2022: Running Rule Check Server
+Mon Nov  7 17:23:09 2022: Version 1.6.1
+Mon Nov  7 17:23:10 2022: Rule Check Server: Accepted socket connection from client
+Mon Nov  7 17:23:10 2022: EXCHANGE_TOKEN received, server token: caa62740-c586-4b43-a35c-078074f942ba, passed token: caa62740-c586-4b43-a35c-078074f942ba
+Mon Nov  7 17:23:10 2022: SESSION_MGR: creating session with session uuid: '9f4c128e-dfe5-4815-b66a-5af2492801d5' and name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'
+Mon Nov  7 17:23:24 2022: Rule Check Server: Accepted socket connection from client
+Mon Nov  7 17:39:17 2022: Rule Check Server: Accepted socket connection from client
+Mon Nov  7 18:45:22 2022: Rule Check Server: Accepted socket connection from client
+Mon Nov  7 20:39:49 2022: SESSION_MGR: closing session for UUID '9f4c128e-dfe5-4815-b66a-5af2492801d5' with name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'

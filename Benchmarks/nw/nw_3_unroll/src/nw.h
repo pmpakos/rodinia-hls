@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define ALEN 128
-#define BLEN 128
+#define ALEN 512 // 128
+#define BLEN 512 // 128
 
 // Test harness interface code.
 

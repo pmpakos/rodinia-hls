@@ -13,12 +13,13 @@ void run_benchmark( void *vargs, cl_context& context, cl_command_queue& commands
   char* seqB_batch = (char *)malloc(sizeof(args->seqB) * num_jobs);
   char* alignedA_batch = (char *)malloc(sizeof(args->alignedA) * num_jobs);
   char* alignedB_batch = (char *)malloc(sizeof(args->alignedB) * num_jobs);
-  int i;
-  
+  int i;  
   for (i=0; i<num_jobs; i++) {
     memcpy(seqA_batch + i*sizeof(args->seqA), args->seqA, sizeof(args->seqA));
     memcpy(seqB_batch + i*sizeof(args->seqB), args->seqB, sizeof(args->seqB));
   }
+
+  printf("Needleman-Wunsch ALEN = %d, BLEN = %d\n", ALEN, BLEN);
 
   // 0th: initialize the timer at the beginning of the program
   timespec timer = tic();
@@ -134,7 +135,6 @@ void input_to_data(int fd, void *vdata) {
 
   s = find_section_start(p,2);
   parse_string(s, data->seqB, BLEN);
-
 }
 
 void data_to_input(int fd, void *vdata) {

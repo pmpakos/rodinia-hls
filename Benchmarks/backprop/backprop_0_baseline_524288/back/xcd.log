@@ -1,0 +1,29 @@
+Tue Nov  8 00:29:38 2022: Server was asked to start on port: '48882'
+Tue Nov  8 00:29:38 2022: Server is using token UUID: '861c230b-6b80-41c2-9136-eb15ea0ec9bb'
+Tue Nov  8 00:29:38 2022: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Tue Nov  8 00:29:38 2022: Attempting to start server on port '48882'
+Tue Nov  8 00:29:38 2022: XCD main fifo: created main fifo '/tmp/xcdmain861c230b-6b80-41c2-9136-eb15ea0ec9bb', fd read = 13
+Tue Nov  8 00:29:38 2022: Running Dispatch Server
+Tue Nov  8 00:29:38 2022: Version 2.1.0
+Tue Nov  8 00:29:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:29:47 2022: EXCHANGE_TOKEN received, server token: 861c230b-6b80-41c2-9136-eb15ea0ec9bb, passed token: 861c230b-6b80-41c2-9136-eb15ea0ec9bb
+Tue Nov  8 00:29:47 2022: SESSION_MGR: creating session with session uuid: '4bab427d-3c32-4f6b-8133-1105efb213a2' and name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 00:29:47 2022: GUIDANCE_SMGR: creating guidance session with uuid: '4bab427d-3c32-4f6b-8133-1105efb213a2' and name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 00:30:38 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:37:10 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:49:47 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:54:35 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:57:10 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 00:59:42 2022: Dispatch Server: Accepted socket connection from client
+Tue Nov  8 01:10:36 2022: Entering handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 01:10:36 2022: Leaving handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 01:52:34 2022: Entering handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 01:52:34 2022: Leaving handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 02:29:56 2022: Entering handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 02:29:56 2022: Leaving handleUtilizationDuringVivadoRunRequest
+Tue Nov  8 02:52:47 2022: SESSION_MGR: closing session for UUID '4bab427d-3c32-4f6b-8133-1105efb213a2' with name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 02:52:47 2022: GUIDANCE_SMGR: closing session for UUID '4bab427d-3c32-4f6b-8133-1105efb213a2' with name 'v++_link_backprop_kernel.hw.xilinx_u280_xdma_201920_3'

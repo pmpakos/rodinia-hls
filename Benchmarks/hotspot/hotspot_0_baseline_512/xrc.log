@@ -1,0 +1,12 @@
+Tue Nov  8 17:07:41 2022: Server was asked to start on port: '48609'
+Tue Nov  8 17:07:41 2022: Server is using token UUID: '3c789b54-6395-4bae-a9cc-1004c8230289'
+Tue Nov  8 17:07:41 2022: Attempting to start server on port '48609'
+Tue Nov  8 17:07:41 2022: XRC main fifo: created main fifo '/tmp/xrcmain3c789b54-6395-4bae-a9cc-1004c8230289', fd read = 13
+Tue Nov  8 17:07:41 2022: Running Rule Check Server
+Tue Nov  8 17:07:41 2022: Version 1.6.1
+Tue Nov  8 17:07:41 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:07:41 2022: EXCHANGE_TOKEN received, server token: 3c789b54-6395-4bae-a9cc-1004c8230289, passed token: 3c789b54-6395-4bae-a9cc-1004c8230289
+Tue Nov  8 17:07:41 2022: SESSION_MGR: creating session with session uuid: '85bb2d0b-9ce9-43a9-bdbe-59f2aea2d8e1' and name 'v++_link_hotspot.hw.xilinx_u280_xdma_201920_3'
+Tue Nov  8 17:07:55 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:13:28 2022: Rule Check Server: Accepted socket connection from client
+Tue Nov  8 17:50:19 2022: Rule Check Server: Accepted socket connection from client

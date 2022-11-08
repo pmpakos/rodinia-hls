@@ -1,0 +1,85 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BUILD
+
+DONE
+all backprop_0/back building
+
+export ROOT=/home/vitis-workspace/rodinia-hls/Benchmarks/
+export BENCHMARK=backprop
+export PROJECT=${BENCHMARK}_0_baseline_65536; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_131072; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_196608; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_262144; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_327680; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_393216; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_524288; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_1048576; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_4194304; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; time make cleanall; screen -dmS ${PROJECT}-back bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_65536; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_131072; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_196608; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_262144; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_327680; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_393216; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_524288; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_1048576; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; time make cleanall; screen -dmS ${PROJECT}-forward bash make_em.sh
+
+
+TODO
+
+export BENCHMARK=hotspot
+export PROJECT=${BENCHMARK}_0_baseline_64; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_512; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_1024; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+export BENCHMARK=kmeans
+export PROJECT=${BENCHMARK}_0_baseline_204800; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_494020; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+export PROJECT=${BENCHMARK}_0_baseline_819200; cd ${ROOT}/${BENCHMARK}/${PROJECT}; time make cleanall; screen -dmS ${PROJECT} bash make_em.sh
+
+export ROOT=/home/vitis-workspace/rodinia-hls/Benchmarks/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CHOWN
+
+DONE
+export ROOT=/home/vitis-workspace/rodinia-hls/Benchmarks/
+export BENCHMARK=backprop
+export PROJECT=${BENCHMARK}_0_baseline_65536; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_131072; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_196608; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_262144; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_327680; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_393216; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_524288; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_1048576; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+export PROJECT=${BENCHMARK}_0_baseline_4194304; time chown -R 10294:10000 ${ROOT}/${BENCHMARK}/${PROJECT};
+
+TODO
+export ROOT=/home/vitis-workspace/rodinia-hls/Benchmarks/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RUN
+
+DONE
+export ROOT=/various/pmpakos/0/rodinia-hls/Benchmarks/
+export BENCHMARK=backprop
+export PROJECT=${BENCHMARK}_0_baseline_65536; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_131072; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_196608; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_262144; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_327680; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_393216; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_524288; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_1048576; cd ${ROOT}/${BENCHMARK}/${PROJECT}/back; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_65536; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_131072; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_196608; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_262144; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_327680; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_393216; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_524288; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+export PROJECT=${BENCHMARK}_0_baseline_1048576; cd ${ROOT}/${BENCHMARK}/${PROJECT}/forward; make check TARGET=hw DEVICE=xilinx_u280_xdma_201920_3;
+
+TODO
+export ROOT=/various/pmpakos/0/rodinia-hls/Benchmarks/

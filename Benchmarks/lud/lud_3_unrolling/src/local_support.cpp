@@ -7,6 +7,9 @@
 int INPUT_SIZE = sizeof(struct bench_args_t);
 
 void run_benchmark( void *vargs, cl_context& context, cl_command_queue& commands, cl_program& program, cl_kernel& kernel ) {
+  
+  printf("LUD GRID_ROWS x GRID_COLS = %d x %d\n", GRID_ROWS, GRID_COLS);
+
   struct bench_args_t *args = (struct bench_args_t *)vargs;
 
   // 0th: initialize the timer at the beginning of the program

@@ -1,0 +1,105 @@
+Timeline Trace
+Generated on: 2022-11-08 16:11:48
+Msec since Epoch: 1667916708835
+Profiled application: host
+Target platform: Xilinx
+Tool version: 2020.2
+XRT build version: 2.8.743
+Build version branch: 2020.2
+Build version hash: 77d5484b5c4daa691a7f78235053fb036829b1e9
+Build version date: N/A 
+
+
+Time_msec,Name,Event,Address_Port,Size,Latency_cycles,Start_cycles,End_cycles,Latency_usec,Start_msec,End_msec,
+16.44326,clGetPlatformIDs|General,START,,,,,,,,,,,0,
+16.460356,clGetPlatformIDs|General,END,,,,,,,,,,,0,
+16.463903,clGetPlatformInfo|General,START,,,,,,,,,,,1,
+16.467398,clGetPlatformInfo|General,END,,,,,,,,,,,1,
+16.47641,clGetPlatformInfo|General,START,,,,,,,,,,,2,
+16.479444,clGetPlatformInfo|General,END,,,,,,,,,,,2,
+16.48312,clGetDeviceIDs|General,START,,,,,,,,,,,3,
+16.486743,clGetDeviceIDs|General,END,,,,,,,,,,,3,
+16.490581,clCreateContext|General,START,,,,,,,,,,,4,
+30.184596,clCreateContext|General,END,,,,,,,,,,,4,
+30.191456,clCreateCommandQueue|General,START,,,,,,,,,,,5,
+30.196714,clCreateCommandQueue|General,END,,,,,,,,,,,5,
+44.655911,clCreateProgramWithBinary|General,START,,,,,,,,,,,6,
+79.192319,clCreateProgramWithBinary|General,END,,,,,,,,,,,6,
+79.200935,clBuildProgram|General,START,,,,,,,,,,,7,
+79.205119,clBuildProgram|General,END,,,,,,,,,,,7,
+79.20761,clCreateKernel|General,START,,,,,,,,,,,8,
+79.492449,clCreateKernel|General,END,,,,,,,,,,,8,
+109.136397,clCreateBuffer|General,START,,,,,,,,,,,9,
+109.259778,clCreateBuffer|General,END,,,,,,,,,,,9,
+109.264916,clCreateBuffer|General,START,,,,,,,,,,,10,
+109.318786,clCreateBuffer|General,END,,,,,,,,,,,10,
+109.321922,clCreateBuffer|General,START,,,,,,,,,,,11,
+109.783323,clCreateBuffer|General,END,,,,,,,,,,,11,
+109.787588,clCreateBuffer|General,START,,,,,,,,,,,12,
+110.249255,clCreateBuffer|General,END,,,,,,,,,,,12,
+110.258394,clEnqueueWriteBuffer|94468527406704,START,,,,,,,,,,,13,
+110.599114,clEnqueueWriteBuffer|94468527406704,END,,,,,,,,,,,13,
+110.607187,clEnqueueWriteBuffer|94468527406704,START,,,,,,,,,,,14,
+110.784398,clEnqueueWriteBuffer|94468527406704,END,,,,,,,,,,,14,
+110.805691,clEnqueueWriteBuffer|94468527406704,START,,,,,,,,,,,15,
+112.293906,clEnqueueWriteBuffer|94468527406704,END,,,,,,,,,,,15,
+112.301856,clEnqueueWriteBuffer|94468527406704,START,,,,,,,,,,,16,
+113.735951,clEnqueueWriteBuffer|94468527406704,END,,,,,,,,,,,16,
+113.749793,clSetKernelArg|General,START,,,,,,,,,,,17,
+113.755559,clSetKernelArg|General,END,,,,,,,,,,,17,
+113.757924,clSetKernelArg|General,START,,,,,,,,,,,18,
+113.760286,clSetKernelArg|General,END,,,,,,,,,,,18,
+113.762221,clSetKernelArg|General,START,,,,,,,,,,,19,
+113.764405,clSetKernelArg|General,END,,,,,,,,,,,19,
+113.766281,clSetKernelArg|General,START,,,,,,,,,,,20,
+113.768396,clSetKernelArg|General,END,,,,,,,,,,,20,
+113.771782,clEnqueueTask|94468527406704,START,,,,,,,,,,,21,
+113.781445,WRITE_BUFFER,QUEUE,0X0|HBM[0],9175248,,,,,,,,,
+113.804091,WRITE_BUFFER,SUBMIT,0X0|HBM[0],9175248,,,,,,,,,
+113.872623,DEPENDENCY_EVENT,,4,5,
+113.922563,WRITE_BUFFER,START,0X0|HBM[0]|0X7fc95cf2b700,9175248,,,,,,,4,5,
+113.969732,DEPENDENCY_EVENT,,4,5,
+113.984246,KERNEL|xilinx_u280_xdma_201920_3-0|backprop_kernel.hw.xilinx_u280_xdma_201920_3|workload|1:1:1|all,QUEUE,0X55EB2B08A270,1,,,,,,,,,
+114.007719,clEnqueueTask|94468527406704,END,,,,,,,,,,,21,
+114.011745,clFinish|General,START,,,,,,,,,,,22,
+116.97583,WRITE_BUFFER,END,0X0|HBM[0]|0X7fc95df2d700,9175248,,,,,,,4,5|5,
+116.993572,KERNEL|xilinx_u280_xdma_201920_3-0|backprop_kernel.hw.xilinx_u280_xdma_201920_3|workload|1:1:1|all,SUBMIT,0X55EB2B08A270,1,,,,,,,,,
+116.999403,KERNEL|xilinx_u280_xdma_201920_3-0|backprop_kernel.hw.xilinx_u280_xdma_201920_3|workload|1:1:1|all,START,0X55EB2B08A270,1,,,,,,,5,None,
+332.949316,KERNEL|xilinx_u280_xdma_201920_3-0|backprop_kernel.hw.xilinx_u280_xdma_201920_3|workload|1:1:1|all,END,0X55EB2B08A270,1,,,,,,,5,None,
+333.066372,clFinish|General,END,,,,,,,,,,,22,
+333.131762,clEnqueueReadBuffer|94468527406704,START,,,,,,,,,,,23,
+333.169485,READ_BUFFER,QUEUE,0X42000|HBM[0],4456516,,,,,,,,,
+333.193906,READ_BUFFER,SUBMIT,0X42000|HBM[0],4456516,,,,,,,,,
+333.344444,READ_BUFFER,START,0X42000|HBM[0]|0X7fc95e72e700,4456516,,,,,,,6,None,
+336.277741,READ_BUFFER,END,0X42000|HBM[0]|0X7fc95e72e700,4456516,,,,,,,6,None,
+336.426931,clEnqueueReadBuffer|94468527406704,END,,,,,,,,,,,23,
+336.468645,clEnqueueReadBuffer|94468527406704,START,,,,,,,,,,,24,
+336.499123,READ_BUFFER,QUEUE,0X483000|HBM[0],4456516,,,,,,,,,
+336.523746,READ_BUFFER,SUBMIT,0X483000|HBM[0],4456516,,,,,,,,,
+336.673193,READ_BUFFER,START,0X483000|HBM[0]|0X7fc95d72c700,4456516,,,,,,,7,None,
+339.573121,READ_BUFFER,END,0X483000|HBM[0]|0X7fc95d72c700,4456516,,,,,,,7,None,
+339.706533,clEnqueueReadBuffer|94468527406704,END,,,,,,,,,,,24,
+339.775081,clReleaseMemObject|General,START,,,,,,,,,,,25,
+339.796138,clReleaseMemObject|General,END,,,,,,,,,,,25,
+339.808653,clReleaseMemObject|General,START,,,,,,,,,,,26,
+339.821602,clReleaseMemObject|General,END,,,,,,,,,,,26,
+339.832582,clReleaseMemObject|General,START,,,,,,,,,,,27,
+339.84397,clReleaseMemObject|General,END,,,,,,,,,,,27,
+339.854516,clReleaseMemObject|General,START,,,,,,,,,,,28,
+339.865564,clReleaseMemObject|General,END,,,,,,,,,,,28,
+Footer,begin
+Project,backprop_kernel.hw.xilinx_u280_xdma_201920_3,
+Stall profiling,false,
+Target,System Run,
+Platform,xilinx_u280_xdma_201920_3-0,
+Read/Write Thread,0X7FC95D72C700
+Read/Write Thread,0X7FC95DF2D700
+Read/Write Thread,0X7FC95E72E700
+Device,xilinx_u280_xdma_201920_3-0,begin
+DDR Banks,begin
+Bank,0,0X000000000
+Bank,1,0X400000000
+DDR Banks,end
+Device,xilinx_u280_xdma_201920_3-0,end
+Footer,end
+

@@ -19,6 +19,8 @@ void run_benchmark( void *vargs, cl_context& context, cl_command_queue& commands
     memcpy(seqB_batch + i*sizeof(args->seqB), args->seqB, sizeof(args->seqB));
   }
 
+  printf("Needleman-Wunsch ALEN = %d, BLEN = %d\n", ALEN, BLEN);
+
   // 0th: initialize the timer at the beginning of the program
   timespec timer = tic();
 
