@@ -1,3 +1,0 @@
-ERROR: [v++ 60-602] Source file does not exist: /home/vitis-workspace/rodinia-hls/Benchmarks/backprop/backprop_6_multiddr/forward/workload:1
-INFO: [v++ 60-1662] Stopping dispatch session having empty uuid.
-INFO: [v++ 60-1653] Closing dispatch client.
