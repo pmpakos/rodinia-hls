@@ -2,3 +2,4 @@
 *xclbin/
 .ipcache/
 *.log
+*.run_summary
